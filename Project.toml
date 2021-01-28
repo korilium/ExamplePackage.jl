@@ -1,0 +1,14 @@
+name = "ExamplePackage2"
+uuid = "431d8909-7fe1-4d30-9871-8f0ac609feec"
+authors = ["Ignace Decocq <ignace.decocq@hotmail.xom>"]
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1"
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
